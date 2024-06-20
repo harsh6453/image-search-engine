@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+PL:wght@100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Oswald", sans-serif;
+    box-sizing: border-box;
+}
+body{
+     background-color:rgb(56, 56, 147) ; 
+     color: #FBEAEB;
+     background-color:#244855 ;
+     background-color: #024950;
+    background-color: #25274D;
+}
+h1{
+    text-align: center;
+    margin: 40px auto 50px;
+    font-weight: 600;
+    align-content: center;
+    font-size: 50px;
+    color: #FBEAEB;
+    
+     
+}
+form{
+    width: 80%;
+    max-width:700px;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(90, 90, 200);
+    background-color: #FBE9D0;
+    background-color: #90AEAD;
+    background-color: #AAABB8;
+    border-radius: 20px;
+    outline: 0;
+    flex-wrap: wrap;
+    
+}
+
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0px;
+    background: transparent;
+    font-size: 15px;
+    padding: 20px;
+    color: white;
+    outline: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+::placeholder{
+    color: white;
+    color: black;
+    opacity: 0.4;
+    
+}
+form button{
+    flex: 0.12;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(232, 80, 1);
+    /* background-color: #874F41;
+    background-color: #29648A; */
+    border: 0;
+    color: white;
+    cursor:pointer;
+    padding: 10px;
+    font-size: 15px;
+}
+form button:hover{
+    background-color: rgb(232, 95, 53);   
+}
+#show-more{
+    padding: 3px;
+    border: 0;
+    border-radius: 60px;
+    background-color: rgb(232, 80, 1);
+    /* background-color: #874F41; */
+    color: white;
+    margin:  50px auto 20px auto ;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    display: none;
+    font-size: 16px;
+}
+#show-more:hover{ 
+    background-color: rgb(232, 95, 53);
+}
+
+#search-result{
+    width: 100%;
+    padding: 30px;
+    display:flex ;
+    justify-content: center;
+    grid-gap: 40px;
+    flex-wrap:wrap ;
+}
+#search-result img{
+    width : 250px;
+    height: 250px;
+    border-radius:40px ;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    transition:  0.3s ease-in-out;
+}
+#search-result img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in;
+}
+#search-result img:hover {
+    opacity: 0.8;
+}
+svg{
+    margin-left: 13px;
+    padding: 1px;
+}
