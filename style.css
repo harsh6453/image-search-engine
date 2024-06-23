@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 body{
-     background-color:rgb(56, 56, 147) ; 
+     background-color:rgb(30, 30, 77) ;
+    /* background-color: #0c5655; */
      color: #FBEAEB;
-     background-color:#244855 ;
-     background-color: #024950;
-    background-color: #25274D;
+     background-color: #222629; 
+     /* background-color: #024950; */
 }
 h1{
     text-align: center;
@@ -32,7 +32,8 @@ form{
     background-color: rgb(90, 90, 200);
     background-color: #FBE9D0;
     background-color: #90AEAD;
-    background-color: #AAABB8;
+    background-color:#f3fce7 ;
+  
     border-radius: 20px;
     outline: 0;
     flex-wrap: wrap;
@@ -46,7 +47,7 @@ form input{
     background: transparent;
     font-size: 15px;
     padding: 20px;
-    color: white;
+    color: black;
     outline: 0;
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +57,7 @@ form input{
 ::placeholder{
     color: white;
     color: black;
-    opacity: 0.4;
+    opacity: 0.6;
     
 }
 form button{
@@ -64,9 +65,7 @@ form button{
     height: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: rgb(232, 80, 1);
-    /* background-color: #874F41;
-    background-color: #29648A; */
+    background-color: #446a12;
     border: 0;
     color: white;
     cursor:pointer;
@@ -74,14 +73,13 @@ form button{
     font-size: 15px;
 }
 form button:hover{
-    background-color: rgb(232, 95, 53);   
+    background-color:#61892F ;   
 }
 #show-more{
     padding: 3px;
     border: 0;
     border-radius: 60px;
-    background-color: rgb(232, 80, 1);
-    /* background-color: #874F41; */
+    background-color: #446a12;
     color: white;
     margin:  50px auto 20px auto ;
     height: 50px;
@@ -91,7 +89,7 @@ form button:hover{
     font-size: 16px;
 }
 #show-more:hover{ 
-    background-color: rgb(232, 95, 53);
+    background-color: #61892F;
 }
 
 #search-result{
@@ -105,15 +103,15 @@ form button:hover{
 #search-result img{
     width : 250px;
     height: 250px;
-    border-radius:40px ;
+    border-radius:30px ;
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
-    transition:  0.3s ease-in-out;
+    transform: translate(5px,20px);
 }
 #search-result img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in;
+    transform: scale(1);
+    transition: transform 0.1s ease-in;
 }
 #search-result img:hover {
     opacity: 0.8;
@@ -121,4 +119,5 @@ form button:hover{
 svg{
     margin-left: 13px;
     padding: 1px;
+    
 }
